@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">CRUD Universidad</string>
+
+    <string name="titulo_formulario">Gestión de Universidades</string>
+    <string name="subtitulo_formulario">Base de Datos SQLite Local</string>
+
+    <string name="label_id">ID Universidad (Automático)</string>
+    <string name="hint_id">ID asignado automáticamente</string>
+    <string name="label_nombre">Nombre de la Universidad</string>
+    <string name="hint_nombre">Ej: Universidad Nacional de Colombia</string>
+    <string name="label_www">Sitio Web (URL)</string>
+    <string name="hint_www">Ej: https://www.unal.edu.co</string>
+
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_limpiar">Limpiar</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_modificar">Modificar</string>
+    <string name="btn_eliminar">Eliminar</string>
+
+    <string name="dialog_buscar_titulo">Buscar Universidad</string>
+    <string name="dialog_buscar_mensaje">Ingrese el ID de la universidad que desea consultar:</string>
+    <string name="dialog_eliminar_titulo">Confirmar Eliminación</string>
+    <string name="dialog_eliminar_mensaje">¿Está seguro de que desea eliminar esta universidad?</string>
+    <string name="dialog_btn_aceptar">Aceptar</string>
+    <string name="dialog_btn_cancelar">Cancelar</string>
+
+    <string name="msg_campo_vacio">Por favor ingrese el Nombre y la URL de la universidad</string>
+    <string name="msg_guardar_exito">Universidad guardada exitosamente con ID: %s</string>
+    <string name="msg_guardar_error">Error al guardar la universidad</string>
+    <string name="msg_buscar_no_encontrado">No se encontró ninguna universidad con el ID especificado</string>
+    <string name="msg_buscar_exito">Universidad cargada correctamente</string>
+    <string name="msg_modificar_sin_id">Debe buscar o cargar una universidad antes de modificar</string>
+    <string name="msg_modificar_exito">Universidad modificada exitosamente</string>
+    <string name="msg_modificar_error">Error al modificar la universidad</string>
+    <string name="msg_eliminar_sin_id">Debe buscar o cargar una universidad antes de eliminar</string>
+    <string name="msg_eliminar_exito">Universidad eliminada exitosamente</string>
+    <string name="msg_eliminar_error">Error al eliminar la universidad</string>
+    <string name="msg_campos_limpios">Formulario limpio</string>
+</resources>
